@@ -1,0 +1,73 @@
+.description {
+    font-family: roboto-regular, sans-serif;
+    text-align: left;
+    margin: 70px 0px 100px 80px;
+    position: relative;
+    color: #ffffff;
+}
+
+.description span {
+    font-size: 31px;
+}
+
+.description p {
+    font-size: 19px;
+    margin: 15px 0 0 0;
+}
+
+.button_description {
+    border: none;
+    border-radius: 50px;
+    background-color: #fe3838;
+    width: 245px;
+    height: 55px;
+    font-family: roboto-bold, sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    margin: 55px 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .description {
+        font-family: roboto-regular, sans-serif;
+        margin: 20px 50px 20px 50px;
+        text-align: center;
+        position: relative;
+        color: #ffffff;
+    }
+
+    .description span {
+        font-size: 40px;
+    }
+
+    .description p {
+        font-size: 25px;
+    }
+
+    .button_description {
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1280px) {
+
+    .description {
+        margin: 20px 50px 20px 50px;
+        text-align: center;
+    }
+
+    .description span {
+        font-size: 40px;
+    }
+
+    .description p {
+        font-size: 25px;
+    }
+
+    .button_description {
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+
+}
